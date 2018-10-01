@@ -15,7 +15,7 @@ img{
 
 .container{
     width:100%;
-    min-width: 1000;
+    min-width: 1500px;
 }
 
 .nav-bar{
@@ -72,6 +72,18 @@ img{
     background-size: cover;
     width:100%;
     height: 95vh;
+}
+
+#showcase-content{
+    padding:20px;
+    color:white;
+    font-size: 2em;
+}
+
+#showcase-content h1{
+    font-family:'Monoton', cursive;
+    font-size: 5em;
+
 }
 
 #box-container{
@@ -139,8 +151,7 @@ img{
 }
 
 #formulario{
-    display: flex;
-    flex-direction: row;
+    display: grid;    
     background-image: url("img/contacus.jpg");
     background-repeat: no-repeat;
     position: relative;
